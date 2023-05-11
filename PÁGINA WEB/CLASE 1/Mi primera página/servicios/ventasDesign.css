@@ -1,0 +1,104 @@
+/* Estilos del menú */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f7f7f7;
+    }
+    
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #202020;
+    color: #fff;
+    padding: 20px 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    }
+  
+  .left {
+    flex: 1;
+    background-color: transparent;
+  }
+      
+  .right {
+    flex: 1;
+    text-align: right;
+  }
+      
+  .logo {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    background-color: #202020;
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .navbar {
+    display: inline-block;
+    background-color: #202020;
+  }
+  
+  .navbar a {
+    display: inline-block;
+    margin-right: 60px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #202020;
+  
+    font-size: 1.0rem;
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+  .navbar a:last-child {
+    margin-right: 0;
+  }
+    
+  .navbar a:hover {
+    text-decoration: dashed;
+    color: #c7c7c7;
+  }
+
+
+  
+
+section h3 {
+    color: #f8f8f8;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+section .section{
+    display: flex;
+    flex-direction: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    border-color: none;
+    border-radius: none;
+    background-color: transparent;
+    flex: 1;
+}
+
+li {
+    color: #c3c3c3;
+    display: flex;
+    flex-direction: column;
+    direction: start;
+    
+}
+

@@ -1,0 +1,16 @@
+CONCEPTOS BÁSICOS:
+
+1. Sitio web
+2. Página web
+3. HTML
+4. Hipervínculo
+5. Editor
+6. Servidor
+7. Hosting
+8. Dominio
+9. URL
+10. Applets
+11. Frames
+12. Tablas
+13. Banner
+14. WESIWYG O WYSIWYM

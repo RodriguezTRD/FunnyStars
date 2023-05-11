@@ -1,0 +1,20 @@
+// Funciones para mostrar/ocultar los divs de los cuadros
+function mostrar(nombre) {
+	document.getElementById(nombre).style.display = "block";
+}
+
+function ocultar(nombre) {
+	document.getElementById(nombre).style.display = "none";
+}
+
+// función para activar el menú fijo al desplazarse hacia abajo
+window.addEventListener('scroll', function() {
+    var menu = document.querySelector('.menu');
+    var scrollPosition = window.scrollY;
+  
+    if (scrollPosition > window.innerHeight) {
+      menu.classList.add('fixed-menu');
+    } else {
+      menu.classList.remove('fixed-menu');
+    }
+  });

@@ -1,0 +1,13 @@
+const form = document.querySelector('.login-form');
+
+form.addEventListener('submit', function(event) {
+  event.preventDefault();
+  const username = form.username.value;
+  const password = form.password.value;
+  
+  if (username === 'username' && password === 'password') {
+    alert('Login successful!');
+  } else {
+    alert('Incorrect username or password.');
+  }
+});

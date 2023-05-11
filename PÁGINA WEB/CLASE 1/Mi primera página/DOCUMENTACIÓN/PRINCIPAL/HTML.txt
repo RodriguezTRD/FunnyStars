@@ -1,0 +1,85 @@
+HTML :
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/jpg" href="logos/logoStars.ico">
+    <link rel="stylesheet" href="style.css">
+	<title>Funny Stars</title>
+</head>
+<body>
+
+    <div class="container">
+        <img src="logos/cosmo.jpg" alt="Estrellas en el espacio">
+        <div class="titulo">Funny Stars</div>
+      </div>
+
+	<div class="menu">
+		<a href="login/login.html" onclick="('login')">Login</a>
+		<a href="#" onclick="mostrar('acerca-de')" target="_blank">Acerca de</a>
+		<a href="#" onclick="mostrar('servicios')" target="_blank">Servicios</a>
+		<a href="#" onclick="mostrar('contacto')" target="_blank">Contacto</a>
+	</div>
+
+	<!-- <div id="login" class="login">
+		<div class="cerrar" onclick="ocultar('login')">X</div>
+		<form>
+			<label>Usuario:</label>
+			<input type="text" name="usuario">
+			<label>Contraseña:</label>
+			<input type="password" name="contrasena">
+			<button type="submit">Iniciar sesión</button>
+		</form>
+	</div> -->
+
+	<div id="acerca-de" class="acerca-de">
+		<div class="cerrar" onclick="ocultar('acerca-de')">X</div>
+		<h2>Acerca de nosotros</h2>
+		<p>Somos una empresa dedicada a...</p>
+	</div>
+
+	<div id="servicios" class="servicios">
+		<div class="cerrar" onclick="ocultar('servicios')">X</div>
+		<h2>Nuestros servicios</h2>
+		<ul>
+			<li>NETFLIX</li>
+			<li>DISNEY</li>
+			<li>IPTV</li>
+		</ul>
+	</div>
+
+	<div id="contacto" class="contacto">
+		<div class="cerrar" onclick="ocultar('contacto')">X</div>
+		<h2>Contacto</h2>
+		<form>
+			<label>Nombre:</label>
+			<input type="text" name="nombre">
+			<label>Email:</label>
+			<input type="text" name="email">
+			<label>Mensaje:</label>
+			<textarea></textarea>
+			<button type="submit">Enviar</button>
+		</form>
+	</div>
+
+    <div class="descripcion">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Officia minus fuga unde ratione doloremque sit blanditiis 
+            quibusdam animi, quisquam consequuntur eveniet molestiae 
+            quos sunt amet, sed enim deleniti, exercitationem nisi. <br>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+        Sed ea est a sunt perspiciatis consequuntur et commodi? Totam, molestias d
+        olor! Qui natus aut architecto libero consequuntur officia odit 
+        totam voluptate!</p>
+    </div>
+
+    
+    
+
+	<script src="hero.js"></script>
+</body>
+</html>

@@ -1,0 +1,298 @@
+* {
+    background: #000;
+    margin: 0;
+	padding: 0;
+    z-index: 1;
+	box-sizing: border-box;
+}
+
+  
+/* Estilos del menú */
+body {
+	font-family: 'Segoe UI', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #333;
+	background-color: #f7f7f7;
+  }
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #202020;
+	color: #fff;
+	padding: 20px 57px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+  z-index: 999;
+  }
+
+.left {
+  flex: 1;
+  background-color: transparent;
+}
+    
+.right {
+  flex: 1;
+  text-align: right;
+}
+    
+.logo {
+  margin: 0;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  background-color: #202020;
+  text-decoration: none;
+  color: #fff;
+  margin-left: -17px;
+}
+
+.navbar {
+	display: inline-block;
+  background-color: #202020;
+}
+
+.navbar a {
+	display: inline-block;
+	margin-right: 60px;
+	color: #fff;
+	text-decoration: none;
+  background-color: #202020;
+
+	font-size: 1.0rem;
+	font-weight: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+.navbar a:last-child {
+	margin-right: 0;
+}
+  
+.navbar a:hover {
+  text-decoration: dashed;
+  color: #c7c7c7;
+}
+
+
+
+  
+ 
+
+
+
+
+  
+
+/* ESTRELLAS */ 
+  .estrella {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	background: white;
+	z-index: 0;
+  } 
+
+  
+/* TITULO Y REGISTRO */ 
+  .estrella2 {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	background: white;
+	z-index: 0;
+  } 
+
+/*
+  .description {
+	display: flex;
+	width: 100%;
+  }
+
+  .tierra {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 400px;
+	height: 100vh;
+  }
+
+  img {
+	max-width: 100%;
+	height: auto;
+  } */
+
+  main {
+	display: flex;
+	height: calc(100vh - 50px);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+  }
+  
+  .izquierda {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	margin-left: 200px;
+  }
+
+  .info {
+	font-size: 20px;
+  }
+  
+  .izquierda h2 {
+	font-size: 3rem;
+  }
+  
+  .derecha {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 200px;
+  }
+  
+  .planeta {
+	height: 300px;
+	width: 300px;
+	position: absolute;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	z-index: 1;
+  }
+
+  img {
+	width: 500px;
+	z-index: 1;
+  }
+
+
+
+
+
+
+  
+  
+  
+
+  /*
+.login {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+  height: 100vh;
+  }
+  
+  .description {
+	max-width: 400px;
+	margin-right: 20px;
+  }
+  
+  h2 {
+	font-size: 3rem;
+	margin-bottom: 30px;
+  }
+  
+  p {
+	font-size: 1.2rem;
+	line-height: 1.5;
+  }
+  
+  .images {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 10px;
+  }
+  
+  .images img {
+	width: 100%;
+	height: 400px;
+	object-fit: cover;
+	border-radius: 0px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  margin: 0px;
+  }
+  
+  form {
+	max-width: 400px;
+	width: 100%;
+  color: #fff;
+  }
+  
+  form label {
+	font-size: 1.2rem;
+	display: block;
+	margin-bottom: 10px;
+  }
+
+  #username, #password {
+    color: #fff;
+  }
+  
+  form input[type="text"],
+  form input[type="password"] {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+	border: none;
+  }
+  
+  form button {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	font-size: 1rem;
+	cursor: pointer;
+	transition: background-color 0.2s ease;
+  }
+  
+  form button:hover {
+	background-color: #fafafa;
+  color: #000;
+  }
+  
+  form p {
+	font-size: 1rem;
+	margin-top: 20px;
+  color: #a1a1a1;
+  }
+  
+  form a {
+	color: #ffffff;
+	text-decoration: underline;
+  }
+  
+  form a:hover {
+	text-decoration: none;
+  }  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
