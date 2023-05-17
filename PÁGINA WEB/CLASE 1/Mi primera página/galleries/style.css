@@ -215,3 +215,11 @@ header {
 	  font-size: 0.8rem;
 	}
   }
+
+
+  footer {
+	background-color: #121212;
+	text-align: center;
+	padding: 20px 0;
+	color: #fff;
+  }
